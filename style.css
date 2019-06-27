@@ -1446,6 +1446,7 @@ input:required {
       -o-transition-duration: 500ms;
       transition-duration: 500ms;
       width: 100%;
+      border: 2px solid black;
       border-radius: 50%; }
   .team-content-area h5 {
     -webkit-transition-duration: 500ms;
@@ -1472,22 +1473,7 @@ input:required {
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
-      .team-content-area .member-social-info a:hover, .team-content-area .member-social-info a:focus {
-        color: #fc6060; }
-  .team-content-area:hover, .team-content-area:focus {
-    background-color: #fc6060; }
-    .team-content-area:hover .member-thumb img, .team-content-area:focus .member-thumb img {
-      -webkit-transform: rotate(25deg);
-      -ms-transform: rotate(25deg);
-      transform: rotate(25deg); }
-    .team-content-area:hover h5,
-    .team-content-area:hover span, .team-content-area:focus h5,
-    .team-content-area:focus span {
-      color: #ffffff; }
-    .team-content-area:hover .member-social-info a, .team-content-area:focus .member-social-info a {
-      color: #ffffff; }
-      .team-content-area:hover .member-social-info a:hover, .team-content-area:hover .member-social-info a:focus, .team-content-area:focus .member-social-info a:hover, .team-content-area:focus .member-social-info a:focus {
-        color: #000000; }
+ 
 
 /* :: 15.0 Gallery CSS */
 .alime-portfolio-area {
@@ -1644,5 +1630,6 @@ input:required {
     height: 100%;
     border: none !important;
     border-radius: 10px; }
+
 
 /*# sourceMappingURL=style.css.map */

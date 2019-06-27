@@ -59,7 +59,7 @@
 
         .member-thumb {
             img {
-                @include transform(rotate(25deg));
+                @include transform(rotate(90deg));
             }
         }
 
